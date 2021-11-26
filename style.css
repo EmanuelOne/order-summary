@@ -1,3 +1,49 @@
-body {
-  margin: auto;
+.info {
+  background-color: white;
+  padding-bottom: 20px;
+}
+.testimonial {
+  width: 40%;
+  margin: 0 auto;
+}
+/* media query */
+@media (min-width: 375px) and (max-width: 800px) {
+  img {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+  h1,
+  p {
+    width: 100%;
+  }
+  ul {
+    width: 90%;
+  }
+  .testimonial {
+    width: 90%;
+  }
+}
+
+@media (max-width: 375px) {
+  img {
+    width: 100%;
+  }
+  .info {
+    width: 100%;
+  }
+  h1,
+  p {
+    width: 100%;
+  }
+  ul {
+    width: 90%;
+  }
+  .testimonial {
+    width: 90%;
+  }
+  footer {
+    font-size: 16px;
+  }
 }
